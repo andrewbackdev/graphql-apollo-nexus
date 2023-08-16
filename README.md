@@ -3,10 +3,15 @@
 This example shows how to implement a **GraphQL server with TypeScript** with the following stack:
 
 - @apollo/server
-- graphql
-- nexus
+- GraphQL
+- Nexus
 
-## Getting started
+# Content
+
+1. [Getting Started](#getting-started)
+2. [Notes](#notes)
+
+## Getting Started
 
 ### 1. Download example and install dependencies
 
@@ -62,7 +67,7 @@ npm run dev
 
 Navigate to [http://localhost:4000](http://localhost:4000) in your browser to explore the API of your GraphQL server in a [GraphQL Playground](https://github.com/prisma/graphql-playground).
 
-### 4. Notes
+## Notes
 
-1. Installed Nexus does not support subscriptions with installed libraries version
-2. This is not a production sample. For production need to configure dynamic DB connection, environments, build, migrations etc
+1. Installed Nexus does not support subscriptions with the version of installed libraries
+2. This is not a production sample. For production, you need to set up a dynamic connection to the database, environments, builds, migrations, etc.
