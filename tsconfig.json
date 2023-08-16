@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@context": ["./src/context.ts"],
+      "@src/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
