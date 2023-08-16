@@ -64,4 +64,5 @@ Navigate to [http://localhost:4000](http://localhost:4000) in your browser to ex
 
 ### 4. Notes
 
-Installed Nexus does not support subscriptions with installed libraries version
+1. Installed Nexus does not support subscriptions with installed libraries version
+2. This is not a production sample. For production need to configure dynamic DB connection, environments, build, migrations etc
