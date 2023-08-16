@@ -13,7 +13,11 @@ This example shows how to implement a **GraphQL server with TypeScript** with th
 Download this example:
 
 ```sh
-git clone <url>
+# Clone repository
+git clone https://github.com/andrewbackdev/graphql-apollo-nexus-ts.git
+
+# move to the folder
+cd graphql-apollo-nexus-ts
 ```
 
 Install npm dependencies:
